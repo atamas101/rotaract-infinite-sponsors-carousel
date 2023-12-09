@@ -54,7 +54,7 @@ body {
 .logos-slide {
   display: flex;
   flex-direction: column;
-  animation: 60s slide infinite linear;
+  animation: 70s slide infinite linear;
   text-align: center;
   padding:80vh 0 0 0;
 
@@ -64,8 +64,8 @@ p {
   display: block;
   padding: 8px 0;
   font-family: Helvetica, Arial, sans-serif;
-  font-size: 30px;
-  line-height: 34px;
+  font-size: 48px;
+  line-height: 54px;
   font-weight: bold;
 
 }
@@ -81,7 +81,7 @@ body.dark {
 }
 
 body.dark p {
-  color: #ffffff;
+  color: #fefefe;
 }
 
 body.dark p.section {
