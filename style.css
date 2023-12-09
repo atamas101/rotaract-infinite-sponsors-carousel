@@ -57,7 +57,7 @@ body {
   flex-direction: column;
   animation: 60s slide infinite linear;
   text-align: center;
-  padding:300px 0;
+  padding:80vh 0 0 0;
 
 }
 
