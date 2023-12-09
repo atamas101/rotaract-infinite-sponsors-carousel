@@ -21,7 +21,6 @@ body {
 .logos {
   overflow: hidden;
   padding: 60px 0;
-  background: white;
   white-space: nowrap;
   position: relative;
   width: 500px;
@@ -61,7 +60,7 @@ body {
 
 }
 
-.logos-slide p {
+p {
   display: block;
   padding: 8px 0;
   font-family: Helvetica, Arial, sans-serif;
@@ -71,8 +70,30 @@ body {
 
 }
 
-.logos-slide p.section {
+p.section {
   padding: 60px 0 20px;
   font-weight: normal;
   color:rgba(0, 0, 0, .6)
+}
+
+body.dark {
+  background: #000000
+}
+
+body.dark p {
+  color: #ffffff;
+}
+
+body.dark p.section {
+  color: rgba(255, 255, 255, .6)
+}
+
+body.dark .logos:before {
+  top: 0;
+  background: linear-gradient(to top, rgba(0, 0, 0, 0), black);
+}
+
+body.dark .logos:after {
+  bottom: 0;
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0), black);
 }
